@@ -29,19 +29,27 @@ const NavBar = () => {
     <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
       SpotUrBus
     </Typography>
+    
+    &nbsp;
+    <Link to="/signin">
+    <Button variant='contained' color='primary'>SIGN IN</Button>
+    </Link>
+    &nbsp;
+    <Link to="/signup">
+    <Button variant='contained' color='primary'>SIGN UP</Button>
+    </Link>
+    &nbsp;&nbsp;&nbsp;
     <Link to="/user">
     <IconButton
       size="large"
-      edge="start"
-      color="inherit"
+      edge="end"
+      color="white"
       aria-label="user"
       sx={{ mr: 2 }}
     ><AccountCircle/>
      
     </IconButton>
     </Link>
-    &nbsp;
-    
     
   </Toolbar>
 </AppBar>
