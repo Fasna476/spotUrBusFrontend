@@ -1,4 +1,4 @@
-.schedule-management {
+/* .schedule-management {
     padding: 20px;
   }
   .form input {
@@ -25,5 +25,189 @@
   }
   th {
     background-color: #f4f4f4;
+  }
+   */
+
+   /* .schedule-management {
+    font-family: 'Poppins', sans-serif;
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+  }
+  
+  h2 {
+    text-align: center;
+  }
+  
+  .form {
+    margin-bottom: 20px;
+  }
+  
+  .form select,
+  .form input {
+    margin: 10px 0;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  button {
+    padding: 10px 15px;
+    margin-right: 5px;
+    border: none;
+    background-color: #4caf50;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th,
+  td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  th {
+    background-color: #f4f4f4;
+  }
+  
+  tr:hover {
+    background-color: #f1f1f1;
+  }
+
+   */
+
+   .schedule-management {
+    max-width: 800px;
+    margin: 0 auto;
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+  }
+  
+  .schedule-management h2, 
+  .schedule-management h3 {
+    text-align: center;
+    color: #444;
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group label {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .form-group select,
+  .form-group input,
+  .stop-time-row input {
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+  }
+  
+  .stop-times {
+    margin: 20px 0;
+  }
+  
+  .stop-times h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .stop-time-row {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .stop-time-row input {
+    flex: 1;
+  }
+  
+  .stop-time-row button {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+  }
+  
+  .stop-time-row button:hover {
+    background-color: #c0392b;
+  }
+  
+  button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #2980b9;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  table th,
+  table td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: left;
+  }
+  
+  table th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+  }
+  
+  table td {
+    vertical-align: middle;
+  }
+  
+  table button {
+    margin-right: 5px;
+    padding: 5px 10px;
+    font-size: 12px;
+  }
+  
+  .actions button {
+    background-color: #2ecc71;
+    border-radius: 4px;
+  }
+  
+  .actions button.delete {
+    background-color: #e74c3c;
+  }
+  
+  .actions button:hover {
+    opacity: 0.9;
   }
   

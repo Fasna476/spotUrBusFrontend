@@ -76,7 +76,7 @@ const NavBar = () => {
     <div className="navbar-container">
       <nav className="navbar">
         <div className="navbar-left">
-        <p>spot-your-bus</p>
+        <p>SPOT-ur-BUS</p>
         </div>
 
         <div className="navbar-right">

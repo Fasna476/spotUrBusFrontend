@@ -38,7 +38,7 @@ const Signin = () => {
       justifyContent="center"
       alignItems="center"
       height="100vh"
-      bgcolor="violet"
+      bgcolor="lavender"
     >
       <Box
         component="form"

@@ -10,7 +10,7 @@ const AdminDashboard = () => {
         <RouteManagement/>
         <BusManagement/>
         <ScheduleManagement/>
-        <UserDetails/>
+        
     </div>
   )
 }

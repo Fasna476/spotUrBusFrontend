@@ -51,7 +51,7 @@ const Home = () => {
               <TableCell>Start location</TableCell>
               <TableCell>End location</TableCell>
               <TableCell>Time</TableCell>
-              <TableCell>reach time</TableCell>
+              {/* <TableCell>reach time</TableCell> */}
             </TableRow>
           </TableHead>
           <TableBody>
@@ -63,7 +63,7 @@ const Home = () => {
                 <TableCell>{bus.startStop}</TableCell>                
                 <TableCell>{bus.endStop}</TableCell>
                 <TableCell>{bus.startArrivalTime.replace(/^[^:]*([0-2]\d:[0-5]\d).*$/, "$1")}</TableCell>
-                <TableCell>{bus.endArrivalTime.replace(/^[^:]*([0-2]\d:[0-5]\d).*$/, "$1")}</TableCell>
+                {/* <TableCell>{bus.endArrivalTime.replace(/^[^:]*([0-2]\d:[0-5]\d).*$/, "$1")}</TableCell> */}
               </TableRow>
             ))}
           </TableBody>
